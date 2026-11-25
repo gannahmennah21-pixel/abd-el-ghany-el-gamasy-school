@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الموقع الرسمي لمدرسة المشير عبد الغني الجمسي الثانوية بنات - إدارة منتزه أول - الإسكندرية">
+  <title>مدرسة المشير عبد الغني الجمسي الثانوية بنات</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="مدرسة المشير عبد الغني الجمسي الثانوية بنات">
+  <meta property="og:description" content="الموقع الرسمي للمدرسة - إدارة منتزه أول التعليمية - الإسكندرية">
+  <meta property="og:image" content="images/el-gamasy.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">مدرسة الجمسي</span>
+      <button class="menu-btn" id="menuBtn" aria-label="القائمة">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#management">الإدارة</a></li>
+        <li><a href="#achievements">الإنجازات</a></li>
+        <li><a href="#gallery">معرض الصور</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-text">
+      <h1>مدرسة المشير عبد الغني الجمسي<br>الثانوية بنات</h1>
+      <p class="hero-sub">إدارة منتزه أول التعليمية - محافظة الإسكندرية</p>
+      <a href="#achievements" class="btn">اكتشف إنجازاتنا</a>
+    </div>
+    <div class="hero-img">
+      <img src="images/el-gamasy.jpg" alt="المشير عبد الغني الجمسي">
+      <p class="img-caption">المشير عبد الغني الجمسي</p>
+    </div>
+  </header>
+
+  <section class="section" id="management">
+    <h2 class="section-title">إدارة المدرسة</h2>
+
+    <div class="principal-box">
+      <div class="person-card big">
+        <img src="images/principal.jpg" alt="مديرة المدرسة">
+        <h3>أ/ فاتن أبو اليزيد</h3>
+        <span class="role">مديرة المدرسة</span>
+      </div>
+    </div>
+
+    <h3 class="sub-title">الأخصائية الاجتماعية</h3>
+    <div class="cards-grid">
+      <div class="person-card">
+        <img src="images/social1.jpg" alt="الأخصائية الاجتماعية">
+        <h3>أ/ راندا مهران</h3>
+        <span class="role">أخصائية اجتماعية</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="achievements">
+    <h2 class="section-title">إنجازات المدرسة</h2>
+    <div class="cards-grid">
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>المسابقات</h3>
+        <p>مشاركات متميزة ومراكز متقدمة في المسابقات الثقافية والعلمية والرياضية على مستوى الإدارة والمحافظة.</p>
+      </div>
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>الندوات</h3>
+        <p>ندوات توعوية وتثقيفية متنوعة لطالباتنا في موضوعات دينية وصحية واجتماعية.</p>
+      </div>
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>الإذاعة المدرسية</h3>
+        <p>إذاعة مدرسية يومية متميزة بأيدي الطالبات تشمل القرآن الكريم والكلمات الهادفة والفقرات المتنوعة.</p>
+      </div>
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>الكورال</h3>
+        <p>كورال المدرسة يشارك في الحفلات والاحتفالات الوطنية ويقدم أعمالاً فنية راقية.</p>
+      </div>
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>الرحلات</h3>
+        <p>رحلات ترفيهية وتعليمية لأهم المعالم الأثرية والسياحية لتنمية معارف الطالبات.</p>
+      </div>
+      <div class="achv-card">
+        <div class="achv-icon"></div>
+        <h3>الأنشطة الفنية</h3>
+        <p>معارض فنية وأنشطة إبداعية تبرز مواهب طالباتنا في الرسم والأشغال اليدوية.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2 class="section-title">معرض الصور</h2>
+    <p class="section-desc">لقطات توثق أنشطتنا ومسابقاتنا وفعالياتنا</p>
+    <div class="gallery-grid" id="galleryGrid">
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" id="closeBtn">✕</span>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <footer class="footer" id="contact">
+    <h2>مدرسة المشير عبد الغني الجمسي الثانوية بنات</h2>
+    <p>إدارة منتزه أول التعليمية - الإسكندرية</p>
+
+    <div class="contact-box">
+      <h3>تواصلوا معنا</h3>
+      <a class="social-btn" href="https://www.facebook.com/share/16UFmzPJDBp/" target="_blank" rel="noopener">صفحة المدرسة على فيسبوك</a>
+    </div>
+
+    <div class="credit">
+      <p>Made by <strong>Gannah Mohamed</strong></p>
+      <a class="social-btn small" href="https://linktr.ee/gannahmohamed" target="_blank" rel="noopener">My linktree</a>
+    </div>
+
+    <p class="copy">© 2026 جميع الحقوق محفوظة - مدرسة المشير عبد الغني الجمسي الثانوية بنات</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
